@@ -12,7 +12,7 @@ class TransferServiceProvider extends \Illuminate\Support\ServiceProvider
     public function boot()
     {
         $this->publishes(array(
-            __DIR__.'/../../config/transfersh.php' => config_path('transfersh.php')
+            __DIR__.'/../config/transfersh.php' => config_path('transfersh.php')
         ));
     }
 
@@ -27,7 +27,7 @@ class TransferServiceProvider extends \Illuminate\Support\ServiceProvider
         $app = $this->app;
 
         $this->mergeConfigFrom(
-            __DIR__.'/../../config/transfersh.php',
+            __DIR__.'/../config/transfersh.php',
             'transfersh'
         );
 
@@ -36,10 +36,5 @@ class TransferServiceProvider extends \Illuminate\Support\ServiceProvider
         });
 
         $app->alias('transfer', 'PurpleObject\Transfer\TransferSH');
-
-
     }
-
-
-
 }
