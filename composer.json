@@ -1,0 +1,22 @@
+{
+  "name": "purpleobject/transfersh-laravel",
+  "description": "Easily upload files to transfer.sh in Laravel",
+  "keywords": ["API", "transfer.sh", "laravel"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Erik Mank",
+      "email": "erik@purpleobject.nl",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "guzzlehttp/guzzle": "^6.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "PurpleObject\\": "src/"
+    }
+  }
+}
