@@ -5,7 +5,7 @@ namespace PurpleObject\Transfer;
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\File;
 
-class Transfer
+class TransferSH
 {
     /**
      * Transfer constructor.

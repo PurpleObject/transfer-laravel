@@ -2,7 +2,7 @@
 
 namespace PurpleObject\Transfer;
 
-class ServiceProvider extends \Illuminate\Support\ServiceProvider
+class TransferServiceProvider extends \Illuminate\Support\ServiceProvider
 {
     /**
      * Bootstrap the application events.
@@ -35,7 +35,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
             return new Transfer();
         });
 
-        $app->alias('transfer', 'PurpleObject\Transfer\Transfer');
+        $app->alias('transfer', 'PurpleObject\Transfer\TransferSH');
 
 
     }

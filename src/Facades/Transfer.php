@@ -2,7 +2,7 @@
 
 namespace PurpleObject\Transfer;
 
-class Facade extends \Illuminate\Support\Facades\Facade
+class Transfer extends \Illuminate\Support\Facades\Facade
 {
     /**
      * {@inheritDoc}
